@@ -372,7 +372,7 @@ yields
 
     20 ::    *[a 2 b c]        *[*[a b] *[a c]]
 
-Line 27 brings us the essential magic of recursion.
+Line 20 brings us the essential magic of recursion.
 `2` is the Nock operator.  If you can compute a subject and a
 formula, you can evaluate them in the interpreter.  In most
 fundamental languages, like Lisp, `eval` is a curiosity.  But
